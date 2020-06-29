@@ -98,16 +98,6 @@ trait ABTestSwitches {
 
   Switch(
     ABTests,
-    "ab-commercial-a9",
-    "Test Amazon A9 header bidding",
-    owners = Seq(Owner.withGithub("ioanna0")),
-    safeState = Off,
-    sellByDate = new LocalDate(2020, 7, 1),
-    exposeClientSide = true
-  )
-
-  Switch(
-    ABTests,
     "ab-commercial-redplanet",
     "Test Redplanet",
     owners = Seq(Owner.withGithub("ioanna0")),
